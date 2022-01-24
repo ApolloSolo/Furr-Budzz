@@ -1,0 +1,36 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.7)),
+    url("https://media.istockphoto.com/photos/group-of-pets-posing-around-a-border-collie-dog-cat-ferret-rabbit-picture-id1296353202?b=1&k=20&m=1296353202&s=170667a&w=0&h=PZjACFOzhvma6vorhg2TXRwrZwo6rHt4ttCTUctGZaQ=");
+    background-size: cover;
+    background-position: center;
+}
+.cover-container{
+    max-width: 60vw;
+}
+
+#nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: white;
+    margin-left: 1rem;
+    text-decoration: none;
+}
+
+#nav-link{
+    padding: 0.25rem 0;
+    font-weight: 700;
+    color: white;
+    margin-left: 1rem;
+}
+
+#nav-link:hover{
+    border-bottom: 0.125rem solid whitesmoke;
+    margin-bottom: 2px;
+}
