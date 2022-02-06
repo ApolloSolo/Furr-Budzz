@@ -28,6 +28,12 @@ app.get('/pets', async (req, res) => {
     res.render('index', { pets })  
 }) 
 
+app.get("/pets/:id", async (req, res) => {
+    const { id } = req.params;
+    const foundPet = await Pet.findById(id);
+    res.render("view", { foundPet });
+})
+
 app.listen(port, () => {
     console.log(`Server Connected. Listening On Port ${port}`);
 })
